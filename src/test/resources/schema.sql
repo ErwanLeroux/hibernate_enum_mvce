@@ -1,0 +1,11 @@
+CREATE TABLE working
+(
+    id  VARCHAR PRIMARY KEY NOT NULL,
+    way VARCHAR(1)
+);
+
+CREATE TABLE not_working
+(
+    id  VARCHAR PRIMARY KEY NOT NULL,
+    way VARCHAR(1)
+);
